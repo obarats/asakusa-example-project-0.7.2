@@ -1,0 +1,5 @@
+#Tue Jan 13 20:27:20 JST 2015
+org.eclipse.jdt.apt.aptEnabled=true
+org.eclipse.jdt.apt.genSrcDir=build/generated-sources/annotations
+eclipse.preferences.version=1
+org.eclipse.jdt.apt.reconcileEnabled=true

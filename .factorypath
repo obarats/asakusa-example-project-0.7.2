@@ -1,0 +1,16 @@
+<factorypath>
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\asakusa-runtime\0.7.2-hadoop1\5295fde2e2ed97012d6ee49d8572fe6a81693bf\asakusa-runtime-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\asakusa-dsl-vocabulary\0.7.2-hadoop1\8f89a20cb81cde0ca7b5ef31b67b83c2d6fff079\asakusa-dsl-vocabulary-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\ashigel-compiler\0.7.2-hadoop1\8c2429632777418e4725407d5871f8ecff1e4c50\ashigel-compiler-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\java-dom\0.7.2-hadoop1\5818c45eceff6af3f6ba65a7c6ccc3b08d80b5e7\java-dom-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\javadoc-parser\0.7.2-hadoop1\ffb344e54706984aa4dbda96f6dbcd44d437f7a0\javadoc-parser-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\jsr269-bridge\0.7.2-hadoop1\77580eb8a68f905ca221d3e2792e923771c07c73\jsr269-bridge-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\collections\0.7.2-hadoop1\9522bdebcb9f5e9655caef342d2054653ab531f1\collections-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\com.asakusafw\simple-graph\0.7.2-hadoop1\face3913dad7ccad666464c38166051c29ed3bbb\simple-graph-0.7.2-hadoop1.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\commons-lang\commons-lang\2.6\ce1edb914c94ebc388f086c6827e8bdeec71ac2\commons-lang-2.6.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.1.2\b316e9737eea25e9ddd6d88eaeee76878045c6b2\logback-classic-1.1.2.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.1.2\2d23694879c2c12f125dac5076bdfd5d771cc4cb\logback-core-1.1.2.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\org.xerial.snappy\snappy-java\1.1.1.3\fbd7b0b8400ebd0d6a2c61493f39530a93d9c4b6\snappy-java-1.1.1.3.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='EXTJAR' id='C:\Users\tsuneo\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.6\562424e36df3d2327e8e9301a76027fca17d54ea\slf4j-api-1.7.6.jar' enabled='true' runInBatchMode='false' />
+</factorypath>

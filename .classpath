@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="build/generated-sources/modelgen">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="build/generated-sources/annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7" exported="true"/>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-core/0.7.2-hadoop1/b0ce91edf61dbed6575cec0f23e90c128a2a326f/asakusa-sdk-core-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-directio/0.7.2-hadoop1/61f58013081360ffadd4f2024541e00dd603f3d8/asakusa-sdk-directio-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-windgate/0.7.2-hadoop1/70e0becdbb90c180d92796724ba54d8748d630f/asakusa-sdk-windgate-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.5/92082dc61252ea28d770c32c969ce809949526fc/jcl-over-slf4j-1.7.5-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.5/cd5970bd13fa85f7bed41ca606d6daf7cbf1365/jcl-over-slf4j-1.7.5.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/decd76e2c461157804473468bbdc6b8eb6d6121b/logback-classic-1.1.2-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-test-emulation/0.7.2-hadoop1/bce57707da9afe42bbc9faad6a65270afe33f1a7/asakusa-sdk-test-emulation-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dsl-vocabulary/0.7.2-hadoop1/159909ca348b5c305a47ac79b226ed2f5a4c226f/asakusa-dsl-vocabulary-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dsl-vocabulary/0.7.2-hadoop1/8f89a20cb81cde0ca7b5ef31b67b83c2d6fff079/asakusa-dsl-vocabulary-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.1.3/7677279be5bfba62a760ceca6e2c88a890d29942/snappy-java-1.1.1.3-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.1.3/fbd7b0b8400ebd0d6a2c61493f39530a93d9c4b6/snappy-java-1.1.1.3.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-runtime/0.7.2-hadoop1/eb4838ba865d843f1ecf7c3bb6460c6a62f4a36/asakusa-runtime-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-runtime/0.7.2-hadoop1/5295fde2e2ed97012d6ee49d8572fe6a81693bf/asakusa-runtime-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/collections/0.7.2-hadoop1/600241a6c617dda91e004d43e426553579868683/collections-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/collections/0.7.2-hadoop1/9522bdebcb9f5e9655caef342d2054653ab531f1/collections-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/simple-graph/0.7.2-hadoop1/98111371a00035de008a52dbeaeb7ef9623791d1/simple-graph-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/simple-graph/0.7.2-hadoop1/face3913dad7ccad666464c38166051c29ed3bbb/simple-graph-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/java-dom/0.7.2-hadoop1/d9a8a15523c28aa067db96a27faed1849739a73a/java-dom-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/java-dom/0.7.2-hadoop1/5818c45eceff6af3f6ba65a7c6ccc3b08d80b5e7/java-dom-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/jsr269-bridge/0.7.2-hadoop1/e77a9c17ec1fe89037570f380b0b627a399f8742/jsr269-bridge-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/jsr269-bridge/0.7.2-hadoop1/77580eb8a68f905ca221d3e2792e923771c07c73/jsr269-bridge-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/javadoc-parser/0.7.2-hadoop1/7e0b1b5cfe518ab61af0f73d793f2af032ff7e7f/javadoc-parser-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/javadoc-parser/0.7.2-hadoop1/ffb344e54706984aa4dbda96f6dbcd44d437f7a0/javadoc-parser-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.6/97bb93c1badeae97a3d37e3c902df2985ee3de34/slf4j-api-1.7.6-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.6/562424e36df3d2327e8e9301a76027fca17d54ea/slf4j-api-1.7.6.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/ashigel-compiler/0.7.2-hadoop1/cb1c97ccb81f1bc1ec12b034c3e89d8a4a401fbf/ashigel-compiler-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/ashigel-compiler/0.7.2-hadoop1/8c2429632777418e4725407d5871f8ecff1e4c50/ashigel-compiler-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/ashigel-compiler-bootstrap/0.7.2-hadoop1/29b6f2ec5651d0c15b20db0e17004edeea3e849f/ashigel-compiler-bootstrap-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/ashigel-compiler-bootstrap/0.7.2-hadoop1/a2e8ed395b2bc9d042bbad948ad38ab12357a5e8/ashigel-compiler-bootstrap-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dsl-analysis-plugin/0.7.2-hadoop1/d4efe0715c6b1b715d975c4c1d41d7b8604ce5f7/asakusa-dsl-analysis-plugin-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dsl-analysis-plugin/0.7.2-hadoop1/15e8a5a639f257d6508a85fb4374b4acd7c02383/asakusa-dsl-analysis-plugin-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-yaess-core/0.7.2-hadoop1/accb52f53e7dfda308a5cff4de1db9890f81a7ba/asakusa-yaess-core-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-yaess-core/0.7.2-hadoop1/5d7fe0e28a2faea6787756589964778aa40e28ba/asakusa-yaess-core-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-yaess-plugin/0.7.2-hadoop1/7afcc9498a8c54ecae994c57588efb5a81b41ea5/asakusa-yaess-plugin-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-yaess-plugin/0.7.2-hadoop1/5cd0f2efcb7f0054c327b7172f635bd481c060bf/asakusa-yaess-plugin-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-app-core/0.7.2-hadoop1/c1e9634d44d2c712bc96f4ae7d2fab7fa9689ec9/asakusa-sdk-app-core-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/object-io/0.7.2-hadoop1/a5b5656d0023f889fdd104ee25aec3c61a605b7a/object-io-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/object-io/0.7.2-hadoop1/a65f636ae0f1dfa84bc67761fe00f75f699df4b4/object-io-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-moderator/0.7.2-hadoop1/65f27f0bf9c79fc853343a76828031a5098f0691/asakusa-test-moderator-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-moderator/0.7.2-hadoop1/7044c0b143269245ffdb99ebeb27f5a18f85adb7/asakusa-test-moderator-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-simple-mapreduce/0.7.2-hadoop1/5399afb117bac6ab4af714da3efe114cea0e9ed5/asakusa-simple-mapreduce-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-simple-mapreduce/0.7.2-hadoop1/f74e2875c2ee49bb9127fb1497ac332e832db485/asakusa-simple-mapreduce-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-runtime-inprocess/0.7.2-hadoop1/dd3819bb48c642aa42b492072ebb8db52531b8f4/asakusa-runtime-inprocess-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-runtime-inprocess/0.7.2-hadoop1/9ab557adcd7d806b9a5b69e34ea901b07921a6d8/asakusa-runtime-inprocess-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.5/1100638866461d41fbed0e89d722b161c579fe23/commons-codec-1.5-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.5/cf993e250ff71804754ec2734a16f23c0be99f70/commons-codec-1.5.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.10-FINAL/64a185e11bfaabe5944d88cd6db2a51a87497017/poi-3.10-FINAL-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.10-FINAL/e22fd3bb6a7152bd7d07c7e8901c2451b601725f/poi-3.10-FINAL.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/2.3.0/8704dcf5c9f10265a08f5020b0fab70eb64ac3c4/xmlbeans-2.3.0.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/3.10-FINAL/835fac8134ae4a02e00de8bda2dcc4b46d7aeec2/poi-ooxml-schemas-3.10-FINAL.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/d8525661c5a0a05702fa41873d250d135031ec25/xml-apis-1.0.b2-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/a8e7149359255f43e0e5e3b1837948f9ed5861fb/dom4j-1.6.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.10-FINAL/5bd073d1cbe7084fe6660c5488185e45416830e/poi-ooxml-3.10-FINAL-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.10-FINAL/42b365f90a4bedbf95944a409c8a25d5952bc3af/poi-ooxml-3.10-FINAL.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a6dc5db8a12928e583bd3f23e72d3ab611ecd58f/gson-2.2.4-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-data-provider/0.7.2-hadoop1/f32c0134167fe8a5f2a62cffa911d8d8b17e9f8f/asakusa-test-data-provider-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-data-provider/0.7.2-hadoop1/b0be88213f398254aafdc4a670b99b2c77abfc76/asakusa-test-data-provider-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-trace-model/0.7.2-hadoop1/77896bf9fcce0be4ae77a4fdd8b23e98755ab68b/asakusa-test-trace-model-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-trace-model/0.7.2-hadoop1/eeb8637331fa725f0d6bfc1508ee3cb8fd75ffa/asakusa-test-trace-model-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-trace-plugin/0.7.2-hadoop1/a9140e6cf37254438f9ea90cea595949a992585e/asakusa-test-trace-plugin-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-trace-plugin/0.7.2-hadoop1/514a0e9c438abf42436addd138def5ed36eca31b/asakusa-test-trace-plugin-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/6c5459816530a1962ac18cd315cc775b1b384329/commons-cli-1.2-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-driver/0.7.2-hadoop1/7b1198d6295a13f1a7396a5ca7574d13674a5049/asakusa-test-driver-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-driver/0.7.2-hadoop1/acc89cf68a2153718d2a6fbd00b5c8ef09c3cc40/asakusa-test-driver-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-test-core/0.7.2-hadoop1/cfc00ebfab41758e01599c87cf7fc0f288984bb2/asakusa-sdk-test-core-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dmdl-core/0.7.2-hadoop1/7e089afc65469fd91b41d79e1d3939329bba9b1c/asakusa-dmdl-core-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dmdl-core/0.7.2-hadoop1/b53763ae5382deef6e37db2529089259afcf537d/asakusa-dmdl-core-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dmdl-java/0.7.2-hadoop1/f2d71b42d089c08dc9aec58760fc766c41160710/asakusa-dmdl-java-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-dmdl-java/0.7.2-hadoop1/49a390ee4e250ada10d979eb9a5ede122d470216/asakusa-dmdl-java-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-data-generator/0.7.2-hadoop1/b557e82e15bd341a56ea986921a5c82030564ed6/asakusa-test-data-generator-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-data-generator/0.7.2-hadoop1/577177645a4ab43ecd7a3bf702815583cfb4a078/asakusa-test-data-generator-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-dmdl-core/0.7.2-hadoop1/b9fddff52feccb33dbeefdd87d81e6550a24af9d/asakusa-sdk-dmdl-core-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-vocabulary/0.7.2-hadoop1/f6d456dc04b2945d5b41137ca43a07f5a42ca32b/asakusa-directio-vocabulary-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-vocabulary/0.7.2-hadoop1/e04aeb9fc2d6c54617b6a2a3964a550195fe619e/asakusa-directio-vocabulary-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-plugin/0.7.2-hadoop1/4ab0d664fb51774084103047949b608c92667793/asakusa-directio-plugin-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-plugin/0.7.2-hadoop1/cecf318ad27756432374dc49e92121fa45afb655/asakusa-directio-plugin-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-app-directio/0.7.2-hadoop1/e2b33d86770d90562757aca609ab63f232007447/asakusa-sdk-app-directio-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-test-moderator/0.7.2-hadoop1/2ba21d3481cac75aad72eb3303c9e6d40b07bddb/asakusa-directio-test-moderator-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-test-moderator/0.7.2-hadoop1/635d841b8a8089c0668a4598faa12ba47c22004c/asakusa-directio-test-moderator-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-test-directio/0.7.2-hadoop1/c983d7c5dd8843d4f1bff83a11660f9e08d9078/asakusa-sdk-test-directio-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-dmdl/0.7.2-hadoop1/bd4c85b56b230e8d84a23347a1e104e372578789/asakusa-directio-dmdl-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-directio-dmdl/0.7.2-hadoop1/407e7d8b6e8c57551d8979d430ed2714f941ebb4/asakusa-directio-dmdl-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-dmdl-directio/0.7.2-hadoop1/b86cd8f74bcddfd9a003a4ccdd75808cb06810bf/asakusa-sdk-dmdl-directio-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-core/0.7.2-hadoop1/1e286a4db2720c9888dbecfe855953e26d528893/asakusa-windgate-core-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-core/0.7.2-hadoop1/c8c96ed8af4c31f7c7f169307558f5137a44b7f4/asakusa-windgate-core-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-vocabulary/0.7.2-hadoop1/402261bbbe8f1713a2ef219305cb1f332e80a143/asakusa-windgate-vocabulary-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-vocabulary/0.7.2-hadoop1/5a70e206d9709fe60684c6f4984276222b61787f/asakusa-windgate-vocabulary-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-plugin/0.7.2-hadoop1/1d89c367e9395ef53f18ca8352bc7244162033ec/asakusa-windgate-plugin-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-plugin/0.7.2-hadoop1/2e25e30e37e935396c3245f24a41cd868e4019fc/asakusa-windgate-plugin-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-app-windgate/0.7.2-hadoop1/f7b9985b5e5e3cf7c956a4d62eb8f37ef20c70b9/asakusa-sdk-app-windgate-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-test-moderator/0.7.2-hadoop1/40e6fa958cf8a23d79097aeb2cbce127de11926a/asakusa-windgate-test-moderator-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-test-moderator/0.7.2-hadoop1/17c2a816a2c0fe6fe52325a728412188502b3384/asakusa-windgate-test-moderator-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-test-windgate/0.7.2-hadoop1/92b3dad2ec5bab9373821da62807853a8400da66/asakusa-sdk-test-windgate-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-dmdl/0.7.2-hadoop1/12ed7ee343f824ac9cd9193cd851ed2f2e529bb2/asakusa-windgate-dmdl-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-dmdl/0.7.2-hadoop1/c102c1e1adc4017b2d430eb9dbeda2388978c844/asakusa-windgate-dmdl-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw.sdk/asakusa-sdk-dmdl-windgate/0.7.2-hadoop1/755c44244062ddc48057db8c82713bc8746f98bf/asakusa-sdk-dmdl-windgate-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/502e1c764542fe747896c1dc04f023acfe0e5cbc/logback-core-1.1.2-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.0.3/760c711c71588bc273d3e56d196d720a7678cd93/commons-logging-1.0.3.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/3.0.1/17f84e1dcab3aee96fa2510969a498a0d544277/commons-httpclient-3.0.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/3.0.1/d6364bcc1b2b2aa69d008602d36a700453648560/commons-httpclient-3.0.1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-inprocess/0.7.2-hadoop1/4c0fc716772dfe44aad4f08723ae3fefb1e8f6ae/asakusa-test-inprocess-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-inprocess/0.7.2-hadoop1/27216195be56a383dd321fff3d5dc39453e74e61/asakusa-test-inprocess-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-inprocess-ext/0.7.2-hadoop1/90d6c90e82072e905d4f46233012691d320366a5/asakusa-test-inprocess-ext-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-test-inprocess-ext/0.7.2-hadoop1/d2e8cb81fcbed35ec04e59cb569039960924d88e/asakusa-test-inprocess-ext-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-bootstrap/0.7.2-hadoop1/1055e3719c5f07ef11c9b31e32529bb6f171e6ac/asakusa-windgate-bootstrap-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-bootstrap/0.7.2-hadoop1/7ecc9eeee9e26827b67f3fe6732afa8db4cb5714/asakusa-windgate-bootstrap-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-test-inprocess/0.7.2-hadoop1/1946c0e5fbd6646f5a9352503f3f3141ad772bb5/asakusa-windgate-test-inprocess-0.7.2-hadoop1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.asakusafw/asakusa-windgate-test-inprocess/0.7.2-hadoop1/ba6cbf9d9a43dfb81e3fc3006ee7c555b85d2e7b/asakusa-windgate-test-inprocess-0.7.2-hadoop1.jar" exported="true">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-client/1.2.1/6d7f986ef390b5860322dcd17fdd061f136e5f62/hadoop-client-1.2.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/xmlenc/xmlenc/0.52/d82554efbe65906d83b3d97bd7509289e9db561a/xmlenc-0.52.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.8/a0d5ce55e1c1cd66c714f4d707395b0097a2d04c/jersey-core-1.8-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.8/b6a0553c0eb3da45a9b8947a0a7283b3b9266d0d/jersey-core-1.8.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.8.8/65727779ffd6016d4076ebe6b62c887e35a95761/jackson-core-asl-1.8.8-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.8.8/dd2e90bb710ea3bc4610e24299d6a4c8dac5049b/jackson-core-asl-1.8.8.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.8.8/188892732a773beb8ebc8d36de244157325287b7/jackson-mapper-asl-1.8.8-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.8.8/1bb32d9d2527c083a56e234acca49a48d3c65c8/jackson-mapper-asl-1.8.8.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.1/6e5ebf802c909bcef2d7e3275c64b474467353b5/jettison-1.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.1/1a01a2a1218fcf9faa2cc2a6ced025bdea687262/jettison-1.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/dd58a0151c110e27c6c18abd45b01792f46d3fcd/stax-api-1.0-2-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/d6337b0de8b25e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.2/3016adffd4777795f8aebce4b97e159539e3ad36/jaxb-api-2.2.2-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.2/aeb3021ca93dde265796d82015beecdcff95bf09/jaxb-api-2.2.2.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.2.3-1/c7853ba682b292a2f9d831af145cadc5313a7af1/jaxb-impl-2.2.3-1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.2.3-1/56baae106392040a45a06d4a41099173425da1e6/jaxb-impl-2.2.3-1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-jaxrs/1.7.1/c30c26c1dc92b87368fa72dca066a3dc10663c27/jackson-jaxrs-1.7.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-jaxrs/1.7.1/28dacb717bedc4f6edd9ca088448ef69d4dcd856/jackson-jaxrs-1.7.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-xc/1.7.1/2b946353ca9d55595ad4ce0574d965b9f01a9f88/jackson-xc-1.7.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-xc/1.7.1/5eb6018a46439ae23afa3699005277ca2a0f7b47/jackson-xc-1.7.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-json/1.8/84cf30aa6e0d4c01fce19dc66d17226cd485071a/jersey-json-1.8-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-json/1.8/825621478fec59983106efaa032c679f925b4eff/jersey-json-1.8.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/2eaa4de56203f433f287a6df5885ef9ad3c5bcae/asm-3.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.8/c9738ed03437214a72c87aa717323a8813e3b2fc/jersey-server-1.8-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.8/6da1231f5e2d7a9f7d194e292fc3695ba7710b2f/jersey-server-1.8.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.1/46773a62217d7f630dfe6bae0bc645bbd92ffd09/commons-io-2.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.1/fd51f906669f49a4ffd06650666c3b8147a6106e/commons-io-2.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/5310da9f90e843883309e9e0bf5950faa79882a0/commons-codec-1.4-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math/2.1/78987455b7dee797ea73f7376ef5093fc8121bf6/commons-math-2.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math/2.1/b3c4bdc2778ddccceb8da2acec3e37bfa41303e9/commons-math-2.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.7.0/b68c4fc66026e8c08df7fb57c7dc1e94a6ed8cbb/commons-beanutils-1.7.0-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.7.0/5675fd96b29656504b86029551973d60fb41339b/commons-beanutils-1.7.0.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/1.8/6c296de7dc352e0af9a40f92f5af995314d41fc9/commons-digester-1.8-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/1.8/dc6a73fdbd1fa3f0944e8497c6c872fa21dca37e/commons-digester-1.8.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils-core/1.8.0/175dc721f87e4bc5cc0573f990e28c3cf9117508/commons-beanutils-core-1.8.0.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.6/2d24067548bf9022d03cfd6ca302e1f6c5d4936/commons-configuration-1.6-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.6/32cadde23955d7681b0d94a2715846d20b425235/commons-configuration-1.6.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/3598e790ecd76ff7eb249853d4d00822ae1a5e71/oro-2.0.8-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/5592374f834645c4ae250f4c9fbb314c9369d698/oro-2.0.8.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/1.4.1/4c85b39e7f03471338bf7d36558eefe1e463e3de/commons-net-1.4.1-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/1.4.1/abb932adb2c10790c1eaa4365d3ac2a1ac7cb700/commons-net-1.4.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-el/commons-el/1.0/fd3913ea5d63d0aed104f3665ab99ae5352d6b8e/commons-el-1.0-sources.jar" kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/commons-el/commons-el/1.0/1df2c042b3f2de0124750241ac6c886dbfa2cc2c/commons-el-1.0.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/hsqldb/hsqldb/1.8.0.10/7e9978fdb754bce5fcd5161133e7734ecb683036/hsqldb-1.8.0.10.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tsuneo/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-core/1.2.1/3e5874122a26a735162a380627210779b41bfd59/hadoop-core-1.2.1.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+</classpath>
